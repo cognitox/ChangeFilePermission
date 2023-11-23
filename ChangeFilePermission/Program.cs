@@ -9,8 +9,7 @@ namespace ChangeFilePermission
         private static string accountName { get; set; } = ""; //Stroage account name
         private static string accountKey { get; set; } = "";  //your storage account key;
         private static string fileSystemName { get; set; } = ""; //Container name
-        private static string folderPath { get; set; } = ""; //path of the parent folder
-
+        private static string folderPath { get; set; } = ""; //Folder path
         private static string userObjectId { get; set; } = ""; //User email or service principal id
 
         static void Main(string[] args)
